@@ -13,5 +13,5 @@
       <input type="submit" value="Insert" />
       <input type="reset"  value="Reset">
     </form>
-  </ body>
+  </body>
 </html>
