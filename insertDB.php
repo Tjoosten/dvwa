@@ -10,8 +10,8 @@
 		die("Connection failed: " . $conn->connect_error);
 	} 
 
-	$sql = "INSERT INTO Users (firstname, lastname)
-			VALUES ('". $_POST['firstname'] ."', '". $_POST['lastname'] ."')";
+	$sql = "INSERT INTO Users (firstname, lastname, password)
+			VALUES ('". $_POST['firstname'] ."', '". $_POST['lastname'] ."', '". md5($_POST['password']) ."')";
 
 	if ($conn->query($sql) === TRUE) {
 		echo "New record created successfully";
