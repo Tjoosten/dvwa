@@ -12,5 +12,6 @@
     <br></br>
     
     <a href="/insertForm.php">XSS <i> (Request) </i>  </a> <br />
+    <a href="/select.php?id=<script> alert('XSS BUG') </script>"> XSS <i> (url) </i> </a>
   </body>
 </html>
