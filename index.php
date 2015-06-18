@@ -11,5 +11,6 @@
     <br></br>
     
     <a href=""> XSS <i>(url)</i> </br>
+    <a href="/insertForm.phy">XSS <i> (Request) </i>  </a>
   </body>
 </html>
