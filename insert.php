@@ -20,4 +20,7 @@
 	}
 
 	$conn->close();
+	
+	sleep(3);
+	header("Location: http://localhost:8080");
 ?>
