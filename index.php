@@ -7,7 +7,7 @@
     
     <h1>DVWA</h1>
   
-    <a href=""> MySQL Select <i>(all)</i> </a> <br />
+    <a href="/select.php"> MySQL Select <i>(all)</i> </a> <br />
     <br></br>
     
     <a href=""> XSS <i>(url)</i> </br>
