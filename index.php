@@ -8,9 +8,9 @@
     <h1>DVWA</h1>
   
     <a href="/select.php"> MySQL Select <i>(all)</i> </a> <br />
+    <a href="/select.php?id=1"> MySQL Select <i> (Injection) </i> <br/>
     <br></br>
     
-    <a href=""> XSS <i>(url)</i> </br>
-    <a href="/insertForm.php">XSS <i> (Request) </i>  </a>
+    <a href="/insertForm.php">XSS <i> (Request) </i>  </a> <br />
   </body>
 </html>
